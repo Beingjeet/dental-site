@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an Appointment - Serene Sanctuary</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .booking-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--surface-container-lowest);
+            padding: 4rem;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--ambient-shadow);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Glass Navigation -->
+    <nav class="nav-container">
+        <a href="index.html" class="logo">Serene Sanctuary</a>
+        <button class="mobile-menu-btn">☰</button>
+        <div class="nav-links">
+            <a href="index.html#services">Services</a>
+            <a href="index.html#about">About Us</a>
+            <a href="index.html#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Booking Section -->
+    <section class="section" style="padding-top: 10rem;">
+        <div class="container">
+            <div class="booking-container">
+                <span class="label-md">Schedule a Visit</span>
+                <h1 class="display-sm" style="margin-bottom: 3rem;">Your sanctuary awaits.</h1>
+
+                <!-- Calendly inline widget begin -->
+                <div class="calendly-inline-widget" data-url="https://calendly.com/jeetvelip16/30min" style="min-width:320px;height:700px;"></div>
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                <!-- Calendly inline widget end -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container" style="text-align: center; color: var(--on-surface-variant);">
+            <p>&copy; 2026 Serene Sanctuary Dental. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
